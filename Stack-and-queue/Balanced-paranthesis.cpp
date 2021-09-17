@@ -83,7 +83,7 @@ bool balanced(string s){
             else st.pop();
         }
     }
-    return true;
+    return st.empty();
 }
 void solve(){
     string s;cin>>s;
